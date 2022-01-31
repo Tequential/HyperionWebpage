@@ -1,0 +1,92 @@
+/*NAVBAR STYLE -->*/
+.nav-style {
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    background-color:rgb(148, 182, 224);
+
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+/*LOGO*/
+.title-font {
+    font-family: 'Oooh Baby', cursive;
+    color: rgba(49, 76, 151, 0.822);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/*REMOVE LINK STYLE*/
+.nav2 a {
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.822)
+}
+
+/*DEFAULT PAGE FONT */
+.page-font-basic {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: rgb(80, 80, 80) !important;
+}
+
+
+.page-font {
+    @extend .page-font-basic;
+    font-size: 20px;
+}
+
+.page-font-smaller {
+    @extend .page-font-basic;
+    font-size: 15px;
+}
+
+.link-font a {
+    text-decoration: underline !important;
+    color: black;
+
+}
+
+/*RECIPE SEPARATOR*/
+.border {
+    border-style: solid;
+    color:lightgray;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*BACKGROUND FOR RECIPES*/
+.background-colour {
+    background-color: rgb(255, 255, 212);
+}
+
+.background-block {
+    margin-left: -20px;
+}
+
+.menu-body {
+    display:none;
+}
+
+.menu {
+    cursor: pointer;
+    border-style: solid;
+    border-color:lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.delete {
+    float:right;
+    margin-right:10px;
+}
+
+.hover-body {
+    margin-top: 20px;
+    display: none;
+    cursor: default;
+}
