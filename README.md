@@ -3,11 +3,11 @@
 A basic recipe website. Visitors can save recipes that they like to a separate page.
 
 **Table of Contents**
-1. Home Page\
-2. Recipes\
-3. Saved Recipes\
-4. Tips\
-5. Subscribe\
+1. Home Page
+2. Recipes
+3. Saved Recipes
+4. Tips
+5. Subscribe
 
 ***Usage***
 Can be displayed in any browser
